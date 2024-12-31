@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { LuLogOut } from "react-icons/lu";
 import { useNavigate } from 'react-router-dom';
-import { clearUser } from '../redux/UserSlice';
+import { clearUser } from '../redux/userSlice';
 import { useSelector, useDispatch } from 'react-redux';
 
 const Navbar = () => {

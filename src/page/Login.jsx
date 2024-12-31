@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import toast from 'react-hot-toast'
 import { useDispatch } from 'react-redux'
-import { setUser } from '../redux/UserSlice'
+import { setUser } from '../redux/userSlice'
 
 const Login = () => {
   const [formData, setFormData] = useState({
