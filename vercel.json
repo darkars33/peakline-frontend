@@ -1,0 +1,27 @@
+{
+          "redirects": [
+            {
+              "source": "/old-path",
+              "destination": "/new-path",
+              "permanent": true
+            }
+          ],
+          "rewrites": [
+            {
+              "source": "/some-path",
+              "destination": "/api/some-path"
+            }
+          ],
+          "headers": [
+            {
+              "source": "/(.*)",
+              "headers": [
+                {
+                  "key": "Cache-Control",
+                  "value": "s-maxage=1, stale-while-revalidate"
+                }
+              ]
+            }
+          ]
+        }
+        
