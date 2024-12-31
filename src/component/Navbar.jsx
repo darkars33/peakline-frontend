@@ -27,7 +27,7 @@ const Navbar = () => {
           return (
                     <div className='fixed w-full bg-gray-100 text-white p-4 flex justify-center shadow-lg z-10'>
                               <div className='w-[95%] flex justify-between'>
-                                        <h1 className='text-black text-xl font-semibold'>Product Listing</h1>
+                                        <h1 className='text-black text-xl font-semibold'>Peakline ReactJS Assignment</h1>
                                         <div className='relative'>
                                                   <span className="p-3 px-5 font-bold bg-blue-400 rounded-full cursor-pointer group relative" onClick={() => setShow(!show)}>
                                                             {firstLetter}

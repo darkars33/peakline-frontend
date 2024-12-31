@@ -15,7 +15,6 @@ function App() {
     <>
       {token && <Navbar />}
       <Routes>
-        {/* Redirect to register if no token */}
         <Route path="/" element={token ? <Home /> : <Navigate to="/register" />} />
         <Route path="/login" element={!token ? <Login /> : <Navigate to="/" />} />
         <Route path="/register" element={!token ? <Register /> : <Navigate to="/" />} />

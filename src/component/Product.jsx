@@ -34,7 +34,7 @@ const Product = ({ product,setRefresh,refresh}) => {
                                         <h1 className='text-xl font-semibold'>{product.name}</h1>
                                         <p className='text-gray-500'>{product.description}</p>
                                         <p>{product.category}</p>
-                                        <div className='flex justify-between items-center'>
+                                        <div className='flex flex-wrap gap-5 justify-between items-center'>
                                                   <div className='flex gap-3'>
                                                             <h1 className='text-xl font-semibold'>$ {product.price}</h1>
                                                             <p className='text-xl font-semibold'>Stock: {product.stock}</p>
